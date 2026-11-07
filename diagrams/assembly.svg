@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="900" viewBox="0 0 1500 900">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#315c70"/></marker></defs>
+<rect width="1500" height="900" fill="#f7fafc"/>
+<text x="75" y="78" fill="#122a39" font-size="39" font-family="DejaVu Sans" font-weight="bold">DIY Pokémon sorter • tilt-tray MVP</text>
+<text x="75" y="117" fill="#526b7a" font-size="21" font-family="DejaVu Sans">Conceptual layout — dimensions in mm, not a manufacturing drawing</text>
+<rect x="72" y="160" rx="24" width="647" height="640" fill="white" stroke="#d6e2ea" stroke-width="2"/>
+<rect x="745" y="160" rx="24" width="685" height="640" fill="white" stroke="#d6e2ea" stroke-width="2"/>
+<text x="103" y="211" fill="#122a39" font-size="27" font-family="DejaVu Sans" font-weight="bold">FRONT VIEW</text>
+<text x="778" y="211" fill="#122a39" font-size="27" font-family="DejaVu Sans" font-weight="bold">TOP VIEW</text>
+<!-- Front camera -->
+<rect x="307" y="257" width="165" height="43" rx="11" fill="#354b5f"/>
+<rect x="367" y="289" width="47" height="17" rx="6" fill="#658499"/>
+<circle cx="390" cy="301" r="12" fill="#0c1822" stroke="#91d9e6" stroke-width="3"/>
+<path d="M 375 320 L 310 510 M 405 320 L 470 510" stroke="#a1d6dc" stroke-width="2" stroke-dasharray="8 7" fill="none"/>
+<text x="485" y="275" fill="#315c70" font-size="20" font-family="DejaVu Sans">Camera</text>
+<text x="485" y="301" fill="#315c70" font-size="17" font-family="DejaVu Sans">120–200 mm</text>
+<!-- stage -->
+<path d="M 222 504 L 556 504" stroke="#3ca0a4" stroke-width="22" stroke-linecap="round"/>
+<path d="M 222 504 L 556 504" stroke="#eff6ec" stroke-width="4"/>
+<path d="M 314 487 L 460 487" stroke="#d77f2f" stroke-width="13" stroke-linecap="round"/>
+<circle cx="390" cy="504" r="14" fill="#12344a" stroke="white" stroke-width="5"/>
+<path d="M 390 504 L 234 560" stroke="#e0a659" stroke-width="3" stroke-dasharray="9 7"/>
+<path d="M 390 504 L 546 560" stroke="#e0a659" stroke-width="3" stroke-dasharray="9 7"/>
+<text x="497" y="480" fill="#315c70" font-size="19" font-family="DejaVu Sans">Tilt ±55°</text>
+<!-- bins -->
+<path d="M 121 622 V 725 H 389 V 622" stroke="#436e97" stroke-width="8" fill="#d6eafd"/>
+<path d="M 391 622 V 725 H 659 V 622" stroke="#4f9983" stroke-width="8" fill="#d6f6eb"/>
+<text x="236" y="680" text-anchor="middle" fill="#1b5577" font-size="26" font-family="DejaVu Sans" font-weight="bold">LEFT BIN</text>
+<text x="535" y="680" text-anchor="middle" fill="#277c62" font-size="26" font-family="DejaVu Sans" font-weight="bold">RIGHT BIN</text>
+<path d="M 305 547 Q 250 588 248 620" stroke="#315c70" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 475 547 Q 525 590 532 620" stroke="#315c70" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="103" y="764" fill="#607685" font-size="17" font-family="DejaVu Sans">Soft liners in bins • use expendable cards for tests</text>
+<!-- Top view. -->
+<rect x="860" y="254" width="445" height="451" fill="#f0f4f7" rx="16" stroke="#8399a7" stroke-width="4"/>
+<rect x="919" y="312" width="327" height="335" fill="#d8edf2" rx="8" stroke="#298a9c" stroke-width="5"/>
+<rect x="948" y="334" width="270" height="291" fill="#fff7e8" stroke="#e48f39" stroke-width="5" rx="10"/>
+<text x="1083" y="473" text-anchor="middle" fill="#915720" font-size="25" font-family="DejaVu Sans" font-weight="bold">63 × 88 card</text>
+<text x="1083" y="513" text-anchor="middle" fill="#9a7435" font-size="18" font-family="DejaVu Sans">face up</text>
+<rect x="911" y="283" width="343" height="22" rx="9" fill="#3a596d"/>
+<rect x="911" y="657" width="343" height="22" rx="9" fill="#3a596d"/>
+<text x="1270" y="304" fill="#315c70" font-size="18" font-family="DejaVu Sans">Pivot axis</text>
+<path d="M 1084 312 V 644" stroke="#436e97" stroke-width="3" stroke-dasharray="8 7"/>
+<text x="1047" y="744" fill="#526b7a" font-size="18" font-family="DejaVu Sans">78 × 105 mm printing platform</text>
+<text x="752" y="830" fill="#526b7a" font-size="18" font-family="DejaVu Sans">Camera mast and servo bracket are adjustable to your hardware.</text>
+</svg>

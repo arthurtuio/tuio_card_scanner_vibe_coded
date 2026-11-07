@@ -1,0 +1,9 @@
+fastapi>=0.115,<1
+uvicorn>=0.30,<1
+python-multipart>=0.0.9
+requests>=2.31,<3
+Pillow>=10,<13
+pytesseract>=0.3.10,<1
+# Optional Raspberry Pi hardware (install after camera + servo board connected):
+# adafruit-circuitpython-servokit
+# Picamera2 should be installed via apt: python3-picamera2

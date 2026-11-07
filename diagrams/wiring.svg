@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="780" viewBox="0 0 1500 780">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10Z" fill="#38617c"/></marker></defs><rect width="1500" height="780" fill="#f8fafb"/>
+<text x="70" y="82" font-size="38" font-weight="bold" fill="#132f42" font-family="DejaVu Sans">Pokémon sorter • 3.3 V logic / 5 V motor</text>
+<text x="70" y="119" font-size="20" fill="#557082" font-family="DejaVu Sans">Servo power stays independent of Raspberry Pi supply — common signal ground required</text>
+<rect x="72" y="200" width="340" height="355" rx="22" fill="#e6edf8" stroke="#517393" stroke-width="4"/>
+<text x="242" y="258" font-size="28" fill="#254866" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans">Raspberry Pi</text>
+<text x="242" y="294" font-size="18" fill="#315b79" text-anchor="middle" font-family="DejaVu Sans">40-pin Linux model</text>
+<text x="112" y="363" font-size="21" fill="#315b79" font-family="DejaVu Sans">Pin 1  3V3</text>
+<text x="112" y="405" font-size="21" fill="#315b79" font-family="DejaVu Sans">Pin 3  SDA</text>
+<text x="112" y="447" font-size="21" fill="#315b79" font-family="DejaVu Sans">Pin 5  SCL</text>
+<text x="112" y="489" font-size="21" fill="#315b79" font-family="DejaVu Sans">Pin 6  GND</text>
+<rect x="580" y="200" width="330" height="355" rx="22" fill="#e8f5eb" stroke="#528767" stroke-width="4"/>
+<text x="745" y="258" font-size="28" fill="#2a6c4a" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans">PCA9685</text>
+<text x="745" y="295" font-size="18" fill="#376e50" text-anchor="middle" font-family="DejaVu Sans">16-ch I2C servo driver</text>
+<text x="626" y="363" font-size="21" fill="#376e50" font-family="DejaVu Sans">VCC logic (3.3V)</text>
+<text x="626" y="405" font-size="21" fill="#376e50" font-family="DejaVu Sans">SDA</text>
+<text x="626" y="447" font-size="21" fill="#376e50" font-family="DejaVu Sans">SCL</text>
+<text x="626" y="489" font-size="21" fill="#376e50" font-family="DejaVu Sans">GND (common)</text>
+<rect x="1040" y="200" width="390" height="190" rx="22" fill="#fef1df" stroke="#bd8039" stroke-width="4"/>
+<text x="1235" y="257" font-size="27" fill="#8e581e" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans">Tilt servo</text>
+<text x="1235" y="303" font-size="20" fill="#8e581e" text-anchor="middle" font-family="DejaVu Sans">CH0 → PWM / V+ / GND</text>
+<text x="1235" y="338" font-size="17" fill="#8e581e" text-anchor="middle" font-family="DejaVu Sans">Metal-gear servo (MG90S)</text>
+<rect x="1038" y="490" width="392" height="170" rx="22" fill="#fff1f1" stroke="#ac5858" stroke-width="4"/>
+<text x="1234" y="546" font-size="25" fill="#8b3b3b" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans">Separate 5 V supply</text>
+<text x="1234" y="582" font-size="19" fill="#8b3b3b" text-anchor="middle" font-family="DejaVu Sans">2–3 A, fused, e-stop on +</text>
+<path d="M 410 351 H 580 M 410 393 H 580 M 410 435 H 580 M 410 477 H 580" stroke="#38617c" stroke-width="4" marker-end="url(#a)"/>
+<path d="M 911 348 H 1040" stroke="#38617c" stroke-width="5" marker-end="url(#a)"/>
+<path d="M 911 514 H 958 V 575 H 1038" stroke="#c5674b" stroke-width="5" fill="none" marker-end="url(#a)"/>
+<path d="M 1038 633 H 970 V 540 H 910" stroke="#c5674b" stroke-width="5" fill="none" marker-end="url(#a)"/>
+<text x="70" y="710" font-size="21" fill="#a13939" font-weight="bold" font-family="DejaVu Sans">Never connect 5 V to a Pi GPIO input. Never power the servo from the Pi 5 V rail.</text>
+<text x="70" y="743" font-size="17" fill="#607685" font-family="DejaVu Sans">Illustrative block diagram; use WIRING.md for exact terminal mapping and emergency-stop placement.</text>
+</svg>

@@ -1,0 +1,21 @@
+Phase,Component,Quantity,Specification,Required,Notes
+V1,Raspberry Pi,1,Linux model with camera/USB + GPIO,Yes,Confirm exact model before choosing CSI ribbon
+V1,MicroSD card and Pi power adapter,1 each,Appropriate to selected Pi,Yes,Pi supply separate from servo supply
+V1,Camera,1,Raspberry Pi Camera Module 3 standard or compatible USB webcam,Yes,Fixed close-focus and adequate printed-number resolution
+V1,Servo,1,Metal-gear 9g MG90S-type,Yes,Verify exact dimensions and rotation under tray load
+V1,PCA9685 I2C driver,1,3.3 V logic with 5 V servo V+,Recommended,Helps avoid timing jitter and scales to more servos
+V1,Servo power supply,1,5 V regulated 2-3 A,Yes,Separate from Pi; check actual servo stall current
+V1,Physical E-stop switch,1,Normally closed switch rated for servo feed,Yes,Series switch on motor V+ only
+V1,LED light with diffuser,2,Soft white and stable intensity,Recommended,Avoid specular glare
+V1,Printed tilt tray,1,78x105 mm in PETG,Yes,STL included
+V1,Printed pivot stand,2,Ø6.55 mm pivot bearing,Yes,STL included
+V1,Printed bin,2,106x125x25 mm,Yes,STL included
+V1,Printed camera support plate,1,Generic adapter bracket,Optional,STL included; not camera-specific
+V1,Custom servo clamp/mount,1,Measured to your exact servo,Yes,Needs customization
+V1,Camera mast,1,2020 aluminum extrusion or printed/wood stand,Yes,Adjustable 120-200mm above stage
+V1,Baseboard,1,Approx. 230x210 mm plywood/acrylic,Yes,May require split 3D printing if printing base
+V1,Soft bin liner,2,Microfiber or thin EVA,Recommended,No glue where card contacts
+V1,Fasteners and wires,1 assortment,M2/M3/M4 screws, standoffs, strain relief,Yes,Select after measuring bought parts
+V2,Roller feeder + separator,1 set,Motor+rubber roller+retard pad,No,Build after proving first 100 manual sorts
+V2,Entry and exit sensors,2,IR break beam 3.3V compatible,No,Or dry-contact sensors with pullups
+V2,Motor driver,1,Matched to chosen DC gearmotor or stepper,No,Do not use a servo driver for non-servo DC motors
